@@ -53,7 +53,11 @@ a {cursor:pointer}
 body{
 	font:normal 11px/14px Arial, Verdana, sans-serif;
 	color:#222;
-	background:#fff
+	background:#111;
+        background-image:url('../img/body.jpg');
+        background-size: 1150px auto;
+        background-repeat:no-repeat;
+        background-padding: 60px 0px;
 }
 body.content_only {
 	background: #FFF;
@@ -540,12 +544,13 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 #header_logo {
 	float:left;
 	display:block;
-	margin-top:30px;
+	margin-top:20px;
 }
 
 #header_right {
-	position:relative;
-	float: right
+	position:absolute;
+	float: right;
+        width: 607px
 }
 
 

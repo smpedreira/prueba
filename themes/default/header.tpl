@@ -76,9 +76,11 @@
 
 			<!-- Header -->
 			<div id="header" class="grid_9 alpha omega">
-				<a id="header_logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
+                                <div>
+                                    <a id="header_logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
 					<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
-				</a>
+                                    </a>
+                                </div>
 				<div id="header_right" class="grid_6 omega">
 					{$HOOK_TOP}
 				</div>
