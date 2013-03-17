@@ -7,7 +7,7 @@
 /* ****************************************************************************
 		reset
 **************************************************************************** */
-html{color:#000;background:#FFF;}
+html{color:#FFF;background:#000;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
 fieldset,img{border:0}
@@ -52,8 +52,8 @@ a {cursor:pointer}
 ************************************************************************************************ */
 body{
 	font:normal 11px/14px Arial, Verdana, sans-serif;
-	color:#222;
-	background:#111;
+	color:#FFF;
+	background:#000;
         background-image:url('../img/body.jpg');
         background-size: 1150px auto;
         background-repeat:no-repeat;
@@ -127,7 +127,6 @@ p em {font-style:italic}
 
 /* link **************************************************************************************** */
 a, a:active, a:visited {
-	color:#333;
 	text-decoration:none;
 	outline: medium none
 }
@@ -540,17 +539,30 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 /* ************************************************************************************************
 		HEADER
 ************************************************************************************************ */
-#header {position:relative}
+#header {
+    position:relative;
+}
+#portada {
+    background-image:url('../img/portada3.png');
+    background-size: 980px 270px;
+    background-repeat:no-repeat;
+    margin-top: 10px;
+    witdh:980px;
+    height:270px;
+}
+
 #header_logo {
 	float:left;
 	display:block;
-	margin-top:20px;
+        margin-top: 15px;
+        margin-bottom: 115px;
+	/*margin:25px 98px 146px 10px;*/
 }
 
 #header_right {
 	position:absolute;
 	float: right;
-        width: 607px
+        width: 540px
 }
 
 
@@ -2093,3 +2105,46 @@ tr.subitem > td:first-child + td {
 }
 
 .ie7 #featured-products_block_center .product_image span.new {top:-20px;right:-19px}
+
+
+/**
+CSS Contenido 
+*/
+.scrollContainer div.panel {
+    height: 360px;
+    overflow: hidden;
+    padding: 0;
+    width: 700px;
+}
+
+div.panel.panel h1 {
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 0 20px;
+    padding: 5px 0;
+    color: #B9E401;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.image_fl {
+    float: left;
+    margin: 3px 30px 0 0;
+}
+
+.image_wrapper {
+    background: none repeat scroll 0 0 #222222;
+    border: 1px solid #000000;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+div.panel img {
+    border: medium none;
+}
+
+div.panel p {
+    margin: 0 0 15px;
+    padding: 0;
+}

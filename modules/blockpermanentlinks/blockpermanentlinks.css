@@ -2,12 +2,13 @@
 ul#header_links {
 	list-style-type: none;
 	float: right;
-	margin-top:5px
+	margin-top:0px;
+        color: #76b5db;
 }
 #header_links li {
 	float: left;
 	padding: 0 8px;
-	border-left:1px solid #333;
+	border-left:2px solid #76b5db;
 	line-height:11px;
 }
 #header_links li:first-child {border:none;}
@@ -19,7 +20,7 @@ ul#header_links {
 #permanent_links div a {
 	display: block;
 	padding: 7px 11px 5px 22px;
-	color: #333;
+	color: #76b5db;
 	background:url(img/arrow_right_2.png) no-repeat 10px 10px;
 }
 
