@@ -14,9 +14,7 @@
 
 /* cart */
 #shopping_cart {
-	
-	
-	
+
 }
 #shopping_cart a{
 	height: 15px;
@@ -25,7 +23,9 @@
 	min-width: 130px;/* 200 */
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;display:block}
+	border-radius: 3px;display:block;
+        color: #000;
+}
 #shopping_cart a:hover span{text-decoration: none}
 #header_user #shopping_cart .ajax_cart_quantity { font-weight:bold; font-size:18px }
 #header_user #shopping_cart .ajax_cart_total { display:none !important; }
@@ -40,15 +40,15 @@
 	clear:both;
 	float:right;
 	margin-top:10px;
-	padding:0;
-	font-size:12px
+	padding:0 5px;
+	font-size:14.5px
 }
 #header_user_info a {
 	display:inline-block;
 	margin:0 0 0 10px;
 	padding:3px 0 0 34px;
-	line-height: 11px;
-	border-left:1px solid #000
+	line-height: 20px;
+	border-left:1px solid #fff
 }
 #header_user_info a.account {
 	border: none;
@@ -57,5 +57,10 @@
 	padding: 0;
 }
 *:first-child+html #header_user_info a {line-height:14px;}
-#header_user_info a.login {background: url('img/icon/login.gif') no-repeat 10px 0}
+#header_user_info a.login {
+    background: url('img/icon/login.gif') no-repeat 10px 0;
+    color: maroon;
+    background-size: 20px 20px;
+    height: 20px;
+}
 #header_user_info a.logout {background: url('img/icon/logout.png') no-repeat 10px -1px}

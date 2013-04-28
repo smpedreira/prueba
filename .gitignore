@@ -1,4 +1,8 @@
 config/settings.inc.php
-/cache/smarty/compile/*.*
-/cache/smarty/cache/*.*
+cache/smarty/compile/*
+cache/smarty/cache/*
+cache/
+/cache/
+./cache/
+cache/
 /nbproject/private/
